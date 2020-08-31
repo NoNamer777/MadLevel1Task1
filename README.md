@@ -1,4 +1,4 @@
-# MadLevel1Task1
+# MAD - Level 1: Task 1
 
 This Mobile Application is developed as part of the introduction to the Mobile Application Development Course at HvA.
 
