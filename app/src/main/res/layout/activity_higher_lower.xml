@@ -5,14 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context=".HigherLowerActivity">
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="8sp"
         android:text="@string/title_label"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -35,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/last_throw_label"
+        android:textColor="@android:color/primary_text_dark"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/llButtonBar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +61,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_lower_label" />
+            android:text="@string/btn_lower_label"
+            android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/btnEquals"
@@ -66,7 +70,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_equals_label" />
+            android:text="@string/btn_equals_label"
+            android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/btnHigher"
@@ -74,7 +79,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_higher_label" />
+            android:text="@string/btn_higher_label"
+            android:textColor="@android:color/black" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
