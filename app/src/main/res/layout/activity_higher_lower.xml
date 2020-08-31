@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/diceImg"
+        android:id="@+id/imgCurrentThrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/dice_img_description"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvLastThrown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/last_throw_label"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toTopOf="@+id/llButtonBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diceImg"
+        app:layout_constraintTop_toBottomOf="@+id/imgCurrentThrow"
         app:layout_constraintVertical_bias="0.2" />
 
     <LinearLayout
